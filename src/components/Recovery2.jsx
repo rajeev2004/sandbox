@@ -18,7 +18,7 @@ export default function Recovery2() {
         <div className="recovery2ContainerChild">
             <div className="images">
                 <img src={logo} alt="google-logo"/>
-                <img src={google-text} alt="google-text"/>
+                <h1 className="google-text">Google</h1>
             </div>
             <div className="enterDetail">
                 <p>To continue, enter your email and username</p>
@@ -28,9 +28,9 @@ export default function Recovery2() {
                 <p><strong>Show password</strong></p>
             </div>
         </div>
-            <div className="button">
-                <button type="button" onClick={changePassword}>Next</button>
-            </div>
+        <div className="button">
+            <button type="button" onClick={changePassword}>Next</button>
+        </div>
     </div>
   );
 }
